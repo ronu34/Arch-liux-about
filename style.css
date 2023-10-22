@@ -1,0 +1,63 @@
+
+
+        /* Reset some default styles */
+        body, h1, p {
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Set a background color and text color */
+        body {
+            background-color: #f2f2f2;
+            color: #333;
+            font-family: Arial, sans-serif;
+        }
+
+        /* Create a header with a background image and centered text */
+        header {
+            background-image: url('https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.svgviewer.dev%2Fs%2F17311%2Farch-linux&psig=AOvVaw3CVV0VPvaJjWZ155xwlB_w&ust=1698042001446000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCJintsSBiYIDFQAAAAAdAAAAABAE-image.jpg');
+            background-size: cover;
+            text-align: center;
+            padding: 100px;
+            color: #fff;
+        }
+
+        /* Style the heading */
+        h1 {
+            font-size: 36px;
+            text-transform: uppercase;
+        }
+
+        /* Style the main content container */
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Style a call to action button */
+        .btn {
+            display: inline-block;
+            background-color: #007bff;
+            color: #fff;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+
+        /* Add hover effect to the button */
+        .btn:hover {
+            background-color: #0056b3;
+        }
+
+        /* Style a simple footer */
+        footer {
+            text-align: center;
+            padding: 10px 0;
+            background-color: #333;
+            color: #fff;
+        }
+ 
